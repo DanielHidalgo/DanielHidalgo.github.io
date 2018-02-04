@@ -1,0 +1,104 @@
+body {
+  background-color:#f3f3f3;
+}
+
+.header {
+  width:100%;
+}
+
+.logo {
+  position: relative;
+  display:inline-block;
+  width:60%;
+}
+
+.logoImage {
+  vertical-align:middle;  
+}
+
+.header li {
+    display: inline;
+    position: relative;
+}
+
+.header a {
+  color:black;
+  padding:5px;
+}
+
+.navLinks {
+  position: relative;
+  display:inline-block;
+}
+
+.bannerCont {
+  width:100%;
+  background-image:url("https://www.utsa.edu/dtcampus/images/utsadowntowncampus.jpg");
+  background-repeat:none;
+  background-size:cover;
+  height:200px;
+}
+
+.content {
+  width:75%;
+  margin:auto;
+}
+
+.centered {
+  text-align:center;
+  margin:auto;
+  display:block;
+}
+
+.Card {
+  width:45%;
+  display:inline-block;
+  float:left;
+  margin:auto;
+  -webkit-box-shadow: 0px 10px 40px 0px rgba(168,166,168,1);
+  -moz-box-shadow: 0px 10px 40px 0px rgba(168,166,168,1);
+  box-shadow: 0px 10px 40px 0px rgba(168,166,168,1);
+  padding:10px;
+  border-collapse: collapse;
+}
+
+#leftCard {
+  margin-right:10px;
+}
+
+#rightCard {
+  margin-left:10px;
+}
+
+.commentArea {
+  margin-top:625px;
+}
+
+.fifty {
+  width:45%;
+  margin:auto;
+  display:inline-block;
+  vertical-align:top;
+}
+
+.footer {
+  margin:auto;
+}
+
+.footer .media{
+  width:33%;
+  margin:auto;
+  display:inline-block;
+  float:left;
+}
+
+.comment {
+  width:100%;
+  height:100px;
+}
+
+.footer img {
+  width: 10%;
+  display:block;
+  margin:auto;
+}
