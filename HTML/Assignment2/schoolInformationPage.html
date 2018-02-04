@@ -6,19 +6,27 @@
   </head>
   <body>
     <div class="header">
-      <img src="#images/header_image.jpg" alt="logo">
-      <br>
+      <div class="logo">
+        <img class="logoImage" src="https://i.imgur.com/ADQ2mPX.png" alt="logo">
+      </div>
+
+      <div class="navLinks">
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">About Me</a></li>
         <li><a href="#">Google</a></li>
         <li><a href="#">My Sites</a></li>
       </ul>
+      </div>
       <br>
-      <img src="#images/header_image.jpg" alt="banner">
+      <div class="bannerCont">
+      &nbsp;
+      </div>
+      <!--<img class="bannerImage" src="https://www.utsa.edu/dtcampus/images/utsadowntowncampus.jpg" alt="banner">-->
     </div>
     
   <div class="content">
+    <br>
     <div class="Card" id="leftCard">
       <form>
         <select>
@@ -27,10 +35,10 @@
           <option calue="utsa">University of Texas San Antonio</option>
         </select>
       </form>
-      School Name
+      <h2 class="centered">Baylor</h2>
       <br>
-      <img src="#images/header_image.jpg" alt="schoolLogo">
-      <table border="1">
+      <img class="centered" src="https://i.imgur.com/koyWRe8.png" alt="schoolLogo">
+      <table align="center" border="1">
         <thead>
           <tr>
             <th>Year</th>
@@ -66,6 +74,7 @@
           </tr>
         </tbody>
       </table>
+      <br>
       Top 5 Majors
       <ul>
         <li>Computer Science</li>
@@ -84,10 +93,10 @@
           <option calue="utsa">University of Texas San Antonio</option>
         </select>
       </form>
-      <label>School Name</label>
+      <h2 class="centered">Baylor</h2>
       <br>
-      <img src="#images/header_image.jpg" alt="schoolLogo">
-      <table border="1">
+      <img class="centered" src="https://i.imgur.com/koyWRe8.png" alt="schoolLogo">
+      <table align="center" border="1">
         <thead>
           <tr>
             <th>Year</th>
@@ -123,6 +132,7 @@
           </tr>
         </tbody>
       </table>
+      <br>
       <label>Top 5 Majors</label>
       <ul>
         <li>Computer Science</li>
@@ -132,37 +142,52 @@
         <li>Marketing</li>
       </ul>
     </div>
-
+ 
     <div class="commentArea">
+    
       <form>
         <fieldset>
           <legend>
             Send Us Feedback
           </legend>
+          <div class="fifty">
           <label>Name:</label>
           <br>
           <input type="text">
+          <br>
+          <br>
           <br>
           <label>Email:</label>
           <br>
           <input type="text">
           <br>
+          </div>
+          <div class="fifty">
           <label>Comment:</label>
           <br>
-          <input type="submit" value="Submit">
-          <textarea>
+          <textarea class="comment">
 
           </textarea>
+          <br>
+
+          </div>
+          <br>
+          <br>
+          <br>
+                              <input class="centered" type="submit" value="Submit">
         </fieldset>
       </form>
     </div>
   </div>  
-    
+    <br>
+    <br>
     <div class="footer">
-      <a href="www.facebook.com"><img src="#facebook.jpg" alt="Share on Facebook"></a>
-      <a href="www.instagram.com"><img src="#instagram.jpg" alt="Share on Instagram"></a>
-      <a href="www.twitter.com"><img src="#twitter.jpg" alt="Share on Twitter"></a>
+      <div class="media"><a href="www.facebook.com"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/300px-Facebook_icon_2013.svg.png" alt="Share on Facebook"></a></div> 
+      
+      <div class="media"><a href="www.instagram.com"><img src="http://geeknewscentral.com/wp-content/uploads/2016/12/Instagram-logo-300x300.png" alt="Share on Instagram"></a></div> 
+      
+      <div class="media"><a href="www.twitter.com"><img src="https://seeklogo.com/images/T/twitter-2012-negative-logo-5C6C1F1521-seeklogo.com.png" alt="Share on Twitter"></a></div> 
     </div>
-    
+    <br>
   </body>
 </html>
