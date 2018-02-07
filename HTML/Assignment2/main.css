@@ -1,3 +1,7 @@
+* {
+  font-family:Arial;
+}
+
 body {
   background-color:#f3f3f3;
 }
@@ -65,6 +69,13 @@ body {
   box-shadow: 0px 10px 40px 0px rgba(168,166,168,1);
   padding:10px;
   border-collapse: collapse;
+}
+
+.cardList { 
+  text-align: center;
+  display: inline-block; 
+  display:table;
+  list-style-type: none;
 }
 
 #leftCard {
